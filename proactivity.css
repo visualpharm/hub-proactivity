@@ -1,0 +1,4 @@
+.pa-box { display: flex; flex-direction: column; gap: var(--space-3); max-width: 560px; }
+.pa-row { display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-base); color: var(--foreground); cursor: pointer; }
+.pa-row select { margin-left: auto; font: inherit; color: inherit; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 6px 10px; }
+.pa-note { margin: 0; font-size: var(--text-sm); color: var(--foreground); }
